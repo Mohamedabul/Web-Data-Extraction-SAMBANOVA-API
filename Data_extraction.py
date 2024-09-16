@@ -28,8 +28,8 @@ embd_model = HuggingFaceInstructEmbeddings(model_name='intfloat/e5-large-v2',
 
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-SAMBA_API_KEY = "MjIxNzAyOEBuZWMuZWR1LmluOmdlQmd3bHN1UTJQMGNGY1g="
-SAMBA_API_URL = "https://fast-api.snova.ai/v1/chat/completions"
+SAMBA_API_KEY = "" #PROVIDE GSAMBANOVA API KEY
+SAMBA_API_URL = "" #PROVIDE YOUR SAMBANOVA API URL
 
 
 def convert_memory_to_serializable(memory):
